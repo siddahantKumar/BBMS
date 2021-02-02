@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','Bloodbankcontroller@Admin')->name('Admin');
 
+Route::get('/','Bloodbankcontroller@Admin')->name('Admin');
+
 Route::get('/nav','Bloodbankcontroller@Navbar');
 Route::get('/blood','Bloodbankcontroller@group');
 Route::get('/Donor','Bloodbankcontroller@Donors');
