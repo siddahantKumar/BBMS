@@ -15,8 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','Bloodbankcontroller@Admin')->name('Admin');
 
-Route::get('/','Bloodbankcontroller@Admin')->name('Admin');
-
 Route::get('/nav','Bloodbankcontroller@Navbar');
 Route::get('/blood','Bloodbankcontroller@group');
 Route::get('/Donor','Bloodbankcontroller@Donors');
@@ -54,7 +52,7 @@ Route::get('/RegD','Bloodbankcontroller@RegisterD')->name('RegD');
 Route::get('/edit/{id}','Bloodbankcontroller@edit')->name('edit'); // edit doing on the basis of id
 Route::post('/update/{id}','Bloodbankcontroller@update')->name('update');
 
-Route::post('/update/{id}','Bloodbankcontroller@update')->name('update');
+
 
 // All route use for blood bank
 
