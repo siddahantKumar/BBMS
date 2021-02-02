@@ -53,7 +53,6 @@ Route::get('/edit/{id}','Bloodbankcontroller@edit')->name('edit'); // edit doing
 Route::post('/update/{id}','Bloodbankcontroller@update')->name('update');
 
 
-
 // All route use for blood bank
 
 Route::get('/in','Bank@index')->name('in');
