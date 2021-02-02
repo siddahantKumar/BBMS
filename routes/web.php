@@ -52,6 +52,7 @@ Route::get('/RegD','Bloodbankcontroller@RegisterD')->name('RegD');
 Route::get('/edit/{id}','Bloodbankcontroller@edit')->name('edit'); // edit doing on the basis of id
 Route::post('/update/{id}','Bloodbankcontroller@update')->name('update');
 
+Route::post('/update/{id}','Bloodbankcontroller@update')->name('update');
 
 // All route use for blood bank
 
@@ -75,7 +76,7 @@ Route::get('/b_6','Bank@b6')->name('b_6');
 Route::get('/b_7','Bank@b7')->name('b_7');
 Route::get('/b_8','Bank@b8')->name('b_8');
 
-//These all pages all relate to donar information 
+//These all pages all relate to donar information
 Route::get('/d_3','Bank@d3')->name('d_3');
 Route::get('/d_4','Bank@d4')->name('d_4');
 Route::get('/d_5','Bank@d5')->name('d_5');
