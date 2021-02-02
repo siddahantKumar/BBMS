@@ -1,0 +1,58 @@
+.forms{
+	width: 100%;
+	margin-top: auto;
+	padding: 40px;
+	margin-left: 8%;
+}
+#CountryName,#CityName{
+	height: 40px;
+	width: 20%;
+	margin:5px;
+}
+.header{
+	margin-top: 150px; 
+	text-align: center;
+	color: white;
+	text-align: bold;
+}
+.groups{
+	color:gray;
+	height:40px; 
+	width:20%;
+	margin:5px;
+}
+ .uper-navbar{
+ 	background-color:rgb(227,27,35);
+ 	font-weight: bold;
+ 	font-size: 1.2em;
+ }
+.lower-navbar{
+	background-color: white;
+}
+.uper-navbar,.lower-navbar{
+	margin: auto;
+}
+#uper-color{
+	color: white;
+}
+#lower-color{
+	color: rgb(227,27,35);
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#lower-color span{
+	font-weight: normal;
+}
+body{
+
+	background-image:url(a1.jpg),url(a2.jpg),url(a3.jpg),url(a4.jpg); 
+/*    background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;*/
+}
+.btn-danger{
+	font-weight: bold;
+	font-size: 100%;
+	height: 40px;
+	width: 20%;
+	margin:5px;
+}

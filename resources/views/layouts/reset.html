@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reset Password</title>
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Admin.css">
+	<script type="text/javascript" src="Login.js"></script>
+	<style type="text/css">
+		form{
+			margin-top: 60px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Reset Password</h1>
+	</div>
+   <form id="color"action="#" method="post">
+   	 <div class="form-group"id="SETFORM">
+      <label for="oldPassword">Old Password:</label>
+      <input class="form-control" id="oldPassword"placeholder="Enter the Old Password" type="password" minlength="8">
+	  <label for="newPassword">New Password:</label>
+	  <input class="form-control" id="newPassword"placeholder="Enter the New Password" type="password">
+      <label for="confirmPassword">Confirm Password:</label>
+      <input class="form-control" id="confirmPassword"placeholder="Re-enter the New Password" type="password"></div>
+  	  <button class="btn btn-danger btn-lg" onclick="checkForm()">Submit</button><br>
+  	  <a href="AdminLogin.html">Click here to go Home</a>
+  </form>
+</body>
+</html>

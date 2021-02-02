@@ -1,0 +1,112 @@
+.header {
+	width: 40%;
+	margin: auto;
+	color: white;
+	margin-top: auto;
+	text-align: center;
+	padding: 20px;
+}
+#SETFORM{
+	width: 65%;
+}
+form {
+	width: 45%;
+	margin: 40px auto;
+	margin-top: 0px;
+	background-size: cover;
+	padding: 20px;
+    background-image:url(b2.jpg);
+	border-radius: 0px 0px 10px 10px;
+	border:2.5px solid white;
+}
+.glyphicon-registration-mark{
+	
+	color: blue;
+}
+a{
+	color: white;
+	text-decoration: underline;
+}
+.glyphicon{
+      float: right;
+      font-size: 50px;
+}
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 35px;
+}
+
+.right-addon .glyphicon { 
+	                      font-size: 20px;
+	                       right: 0px;
+	                        position: center;
+                           }
+
+
+#color{
+	color: white;
+	margin: auto;
+
+}
+form:hover {
+            background-color: green;
+}
+body{
+	background: url(b2.jpg);	
+	background-size: cover;
+/*	background-position: center;*/
+}
+#login{
+	letter-spacing: 3px;
+}
+#email,#password{
+	height: 50px;
+	padding: auto;
+	border-radius: 5px;
+	word-spacing: 0px;
+}
+.btn {
+	padding: normal;
+	font-size: 15px;
+	margin: 10px;
+}
+#abc{
+	margin-bottom: 20px;
+	color: white;
+}
+
+/*New Account     */
+/* Full-width input fields */
+input[type=email], input[type=password] {
+  
+  padding: 10px;
+  width: 100%;
+  margin:auto;
+}
+h1,p{
+	color: white;
+}
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/* Add a blue text color to links */
+a [href="AdminLogin.html"] {
+  color: dodgerblue;
+}
+
+/* Set center the text of the "sign in" section */
+.signin {
+
+  text-align: center;
+}
+.sin{
+	color: red;
+}
